@@ -1,0 +1,17 @@
+{
+  "name": "storyforge-autonomous-agent",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "express": "^5.1.0",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
